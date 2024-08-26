@@ -1,0 +1,65 @@
+.StackPane {
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-border-radius: 10%;
+}
+.StackPane:hover, .Button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+.VBox {
+    -fx-background-color: linear-gradient(to right, black, #011638);
+    -fx-background-radius: 1%;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 20, 0 , 0 , 1 );
+}
+.AnchorPane {
+    -fx-background-radius: 1%;
+}
+.Button {
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-border-radius: 30%;
+}
+.Img {
+    -fx-border-color: white;
+    -fx-border-width: 1.5;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 20, 0 , 0 , 1 );
+}
+.TabPane {
+    -fx-background-color: white;
+}
+.Grid {
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-border-radius: 2%;
+    -fx-background-color: white;
+    -fx-background-radius: 2.2%;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10, 0 , 0 , 1 );
+}
+.list-view {
+    -fx-font-size: 24px;
+}
+
+
+
+.calendar-view {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #333333;
+}
+
+.day-view {
+    -fx-background-color: #F8F8F8;
+}
+
+.month-view {
+    -fx-background-color: #FFFFFF;
+}
+
+.weekday-header {
+    -fx-background-color: #EFEFEF;
+    -fx-text-fill: #2F4F4F;
+}
+
+.time-label {
+    -fx-text-fill: #696969;
+}
